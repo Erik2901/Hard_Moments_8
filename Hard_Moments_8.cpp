@@ -240,11 +240,10 @@ int main()
 	book.ChangePhoneNumber(Person{ "Kotov", "Vasilii", "Eliseevich" }, PhoneNumber{ 7, 123, "15344458", std::nullopt });
 	book.ChangePhoneNumber(Person{ "Mironova", "Margarita", "Vladimirovna" }, PhoneNumber{ 16, 465, "9155448", "13" });
 	std::cout << book;
+	
+	file.close();
 	*/
-	//std::cout << book.get_str();
-	//file.close();
 
-	//std::cout << book.get_str();
 	testing::InitGoogleTest();
 	return RUN_ALL_TESTS();
 	return 0;
